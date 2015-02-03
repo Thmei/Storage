@@ -17,6 +17,8 @@ struct word{
 int getFreqLetter(string a);
 int countWordFreq(string a);
 int main (){
+	
+	int end;
 	//get string of text from user and store it 
 	cout << "Enter some text: " << endl;
 	getline(cin, text);
@@ -26,6 +28,8 @@ int main (){
 	cout << endl;
 	getFreqLetter(text);
 	countWordFreq(text);
+	cout << "Enter anything and press Enter! " << endl ;
+	cin >> end;
 	return 0;
 }
 int getFreqLetter(string a){
