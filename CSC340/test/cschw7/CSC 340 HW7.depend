@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1354830343 source:/home/michael/Dropbox/CSC 340 HW7/CSC 340 HW7/list.cpp
+	"list.h"
+
+1354830344 /home/michael/Dropbox/CSC 340 HW7/CSC 340 HW7/list.h
+	"listexceptions.h"
+	"listindexoutofrangeexception.h"
+	<iostream>
+
+1354667607 /home/michael/Dropbox/CSC 340 HW7/CSC 340 HW7/listexceptions.h
+	<stdexcept>
+	<string>
+
+1354835590 source:/home/michael/Dropbox/CSC 340 HW7/CSC 340 HW7/main.cpp
+	<iostream>
+	"list.h"
+
+1354668312 /home/michael/Dropbox/CSC 340 HW7/CSC 340 HW7/listindexoutofrangeexception.h
+	<stdexcept>
+	<string>
+

@@ -1,0 +1,32 @@
+/*
+Thomas X Mei
+911647469	
+CSC 340
+Hui Yang
+Homework 2 Problem 2
+*/
+#include <iostream>
+#include <string>
+#include <vector>
+
+using namespace std;
+
+int main(){
+	
+	-initialize vector of strings for words
+	-initialize vector of strings for sentences
+	-initialize vector of strings for co-occured words
+	-initialize int for counter of words
+	-while loop ( not end of file)
+		-for loop to add words into vector
+	-while loop ( not end of file)
+		-for loop to add words until sentence ends into vector
+	-for loop for counting ammount of words
+	-if statement to check if there are instances of the same 
+	 word occurence in one sentence to the other (co-occurence)
+	-for loop for putting in the co-occured words into vector for co-occured words
+	-cout the co-occured words along with its counter
+	
+	 
+	return 0;
+}
