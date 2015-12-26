@@ -1,0 +1,39 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "t4.csc413.smartchef"
+        minSdkVersion 14
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+    }
+
+
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:22.1.1'
+    compile 'org.json:json:20140107'
+    compile 'com.evernote:android-sdk:2.0.0-RC3'
+    compile 'com.squareup.retrofit:retrofit:1.9.0'
+    compile 'com.google.android.gms:play-services:8.1.0'
+    compile 'com.mcxiaoke.volley:library:1.0.19'
+    compile 'com.google.code.gson:gson:2.4'
+}
