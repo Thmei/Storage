@@ -1,0 +1,854 @@
+Initialize engine version: 4.6.2f1 (bd99309c2ad7)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 750 (ID=0x1381)
+    Vendor:   NVIDIA
+    VRAM:     1994 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Thomas X Mei\Desktop\Storage\PuV_Alpha_V3\PuV Alpha V3_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Thomas X Mei\Desktop\Storage\PuV_Alpha_V3\PuV Alpha V3_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Thomas X Mei\Desktop\Storage\PuV_Alpha_V3\PuV Alpha V3_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Thomas X Mei\Desktop\Storage\PuV_Alpha_V3\PuV Alpha V3_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Thomas X Mei\Desktop\Storage\PuV_Alpha_V3\PuV Alpha V3_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Thomas X Mei\Desktop\Storage\PuV_Alpha_V3\PuV Alpha V3_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.066 seconds
+desktop: 1280x960 75Hz; virtual: 1280x960 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: C:\Users\Thomas X Mei\Desktop\Storage\PuV_Alpha_V3\PuV Alpha V3_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Thomas X Mei\Desktop\Storage\PuV_Alpha_V3\PuV Alpha V3_Data\Managed\System.dll (this message is harmless)
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+UnloadTime: 12.958295 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1417.
+Total: 9.157357 ms (FindLiveObjects: 0.271658 ms CreateObjectMapping: 0.061930 ms MarkObjects: 0.985569 ms  DeleteObjects: 5.813109 ms)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1608)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1769)
+
