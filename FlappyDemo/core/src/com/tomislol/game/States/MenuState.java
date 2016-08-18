@@ -14,7 +14,7 @@ public class MenuState extends State {
     public MenuState(GameStateManager gsm)
     {
         super(gsm);
-        background = new Texture("bg.png");
+        background = new Texture("space.jpg");
         playBtn = new Texture("playbtn.png");
     }
 
@@ -45,7 +45,7 @@ public class MenuState extends State {
 
     @Override
     public void dispose() {
-        background.dispose();
-        playBtn.dispose();
+       // background.dispose();
+        //playBtn.dispose();
     }
 }

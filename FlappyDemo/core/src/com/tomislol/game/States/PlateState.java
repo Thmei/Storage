@@ -15,7 +15,7 @@ import com.tomislol.game.Spirtes.Tube;
 public class PlateState extends State
 {
     private static final int TUBE_SPACING = 125;
-    private static final int TUBE_COUNT = 4;
+    private static final int TUBE_COUNT = 999;
     private static final int GROUND_Y_OFFSET = -30;
     private Bird bird;
     private Texture bg;
@@ -76,12 +76,12 @@ public class PlateState extends State
             }
             if(tube.collides(bird.getBounds()))
             {
-                gsm.set(new PlateState(gsm));
+                gsm.set(new MenuState(gsm));
             }
         }
         if(bird.getPosition().y <= ground.getHeight() + GROUND_Y_OFFSET)
         {
-            gsm.set(new PlateState(gsm));
+            gsm.set(new MenuState(gsm));
         }
         cam.update();
 
