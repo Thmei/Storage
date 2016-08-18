@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="/~s16g10/browse/css/browsestyle.css">
+        <link rel="stylesheet" href="/~s16g10/common/css/common.css">
+        
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/png" href="/~s16g10/img/favicon.png">
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  
+
+        <script src="/~s16g10/browse/js/browse-script.js"></script>
+ 
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="/path/to/inputTags.jquery.js"></script>
+        
+        <!-- Preloader -->
+        <script type="text/javascript">
+            //<![CDATA[
+                $(window).load(function() { // makes sure the whole site is loaded
+                    $('#status').fadeOut(); // will first fade out the loading animation
+                    $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+                   
+                    $('body').delay(350).css({'overflow':'visible'});
+               
+                });
+                
+                    //standard-nav
+                    $.get("/~s16g10/common/header.php", function (data) {
+                        $("#standard-nav").append(data);
+                    });
+
+                    //standard-footer
+                    $.get("/~s16g10/common/footer.html", function (data) {
+                        $("#standard-footer").append(data);
+                    });
+            //]]>
+        </script>
+    </head>
+    <body>
+        
+         <!-- Preloader -->
+        <div id="preloader">
+            <div id="status">&nbsp;</div>
+        </div>
+         
+        <div id ="standard-nav">
+        </div>
+            
+
+            <div class="container">
+
+        <div class="row">
+
+            <div class="col-lg-12">
+                <h1 class="page-header">About Us
+                    <small>Hello, it's Nice to Meet You!</small>
+                
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-6">
+                <img class="img-responsive img-rounded"  src="/~s16g10/about/img/about_logo.JPG">
+            </div>
+            <div class="col-md-6">
+                <h2>Welcome to Pikture!</h2>
+                <p>Pikture is a media distribution website that makes the connections between talented independent artists and customers who seeks for art possible and simple. With the latest technology in web development that our site is using, we developed this user-friendly interface for each of our users, whether they're an artist or a customer, ensuring them for a smooth and satisfying experience.</p>
+                
+            </div>
+
+        </div>
+
+        <!-- Team Member Profiles -->
+
+        <div class="row">
+
+            <div class="col-lg-12">
+                <h2 class="page-header">Our Team</h2>
+            </div>
+
+            <div class="col-sm-4">
+                <img class="img-responsive img-circle img-center" src="../common/img/sm_147H.jpg">
+                <h3>Eduard Kegulskiy
+                    <small>Team Lead, SVN Admin, Back-end Developer</small>
+                </h3>
+                
+                <ul class="list-unstyled list-inline list-social-icons">
+                    <li class="tooltip-social facebook-link"><a href="#facebook-profile" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-square fa-2x"></i></a>
+                    </li>
+                    <li class="tooltip-social linkedin-link"><a href="#linkedin-profile" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                    </li>
+                    <li class="tooltip-social twitter-link"><a href="#twitter-profile" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter-square fa-2x"></i></a>
+                    </li>
+                    <li class="tooltip-social google-plus-link"><a href="#google-plus-profile" data-toggle="tooltip" data-placement="top" title="Google+"><i class="fa fa-google-plus-square fa-2x"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-sm-4">
+                <img class="img-responsive img-circle img-center" src="../common/img/sm_162H.jpg">
+                <h3>Tanya Kuznetsova
+                    <small>Tech Lead, Front-End Devoloper, UI/UX Design</small>
+                </h3>
+                
+                <ul class="list-unstyled list-inline list-social-icons">
+                    <li class="tooltip-social facebook-link"><a href="#facebook-profile" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-square fa-2x"></i></a>
+                    </li>
+                    <li class="tooltip-social linkedin-link"><a href="#linkedin-profile" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                    </li>
+                    <li class="tooltip-social twitter-link"><a href="#twitter-profile" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter-square fa-2x"></i></a>
+                    </li>
+                    <li class="tooltip-social google-plus-link"><a href="#google-plus-profile" data-toggle="tooltip" data-placement="top" title="Google+"><i class="fa fa-google-plus-square fa-2x"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-sm-4">
+                <img class="img-responsive img-circle img-center" src="../common/img/sm_158H.jpg">
+                <h3>Devin Clary
+                    <small>Back-end Developer/Engineer, Database Functionality</small>
+                </h3>
+               
+                <ul class="list-unstyled list-inline list-social-icons">
+                    <li class="tooltip-social facebook-link"><a href="#facebook-profile" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-square fa-2x"></i></a>
+                    </li>
+                    <li class="tooltip-social linkedin-link"><a href="#linkedin-profile" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                    </li>
+                    <li class="tooltip-social twitter-link"><a href="#twitter-profile" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter-square fa-2x"></i></a>
+                    </li>
+                    <li class="tooltip-social google-plus-link"><a href="#google-plus-profile" data-toggle="tooltip" data-placement="top" title="Google+"><i class="fa fa-google-plus-square fa-2x"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-sm-4">
+                <img class="img-responsive img-circle img-center" src="../common/img/sm_179H.jpg">
+                <h3>Thomas X Mei
+                    <small>Front-end Developer, QA, UX/UI Design</small>
+                </h3>
+                
+                <ul class="list-unstyled list-inline list-social-icons">
+                    <li class="tooltip-social facebook-link"><a href="#facebook-profile" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-square fa-2x"></i></a>
+                    </li>
+                    <li class="tooltip-social linkedin-link"><a href="#linkedin-profile" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                    </li>
+                    <li class="tooltip-social twitter-link"><a href="#twitter-profile" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter-square fa-2x"></i></a>
+                    </li>
+                    <li class="tooltip-social google-plus-link"><a href="#google-plus-profile" data-toggle="tooltip" data-placement="top" title="Google+"><i class="fa fa-google-plus-square fa-2x"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-sm-4">
+                <img class="img-responsive img-circle img-center" src="../common/img/sm_225H.jpg">
+                <h3>Angelo Nucup
+                    <small>Front-end Developer, Documentation, UI/UX Design</small>
+                </h3>
+                
+                <ul class="list-unstyled list-inline list-social-icons">
+                    <li class="tooltip-social facebook-link"><a href="#facebook-profile" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-square fa-2x"></i></a>
+                    </li>
+                    <li class="tooltip-social linkedin-link"><a href="#linkedin-profile" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                    </li>
+                    <li class="tooltip-social twitter-link"><a href="#twitter-profile" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter-square fa-2x"></i></a>
+                    </li>
+                    <li class="tooltip-social google-plus-link"><a href="#google-plus-profile" data-toggle="tooltip" data-placement="top" title="Google+"><i class="fa fa-google-plus-square fa-2x"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+
+        </div>
+
+    </div>
+            
+            
+        <div id ="standard-footer">
+        </div>
+    </body>
+</html>        

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/png" href="/~s16g10/img/favicon.png">
+        <link rel="stylesheet" href="/~s16g10/search/css/search-style.css">
+
+        
+        <!-- Footer - bottom position fixed-->
+        <style type="text/css">
+            html,
+            body {
+                    margin:0;
+                    padding:0;
+                    height:100%;
+            }
+            #wrapper {
+                    min-height:100%;
+                    position:relative;
+            }
+            #header {
+             
+                    padding-bottom:10px;
+            }
+            #content {
+                    padding-bottom:90px; /* Height of the footer element */
+            }
+            #footer {
+                    
+                    width:100%;
+                    height:100px;
+                    position:absolute;
+                    bottom:0;
+                    left:0;
+            }
+            
+        </style>
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        
+       <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  
+
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.12/jquery-ui.min.js" type="text/javascript" charset="utf-8"></script>
+ 
+        <script src="/~s16g10/common/js/common-scripts.js"></script>
+
+        <script src="js/searchResultsScript.js" async ></script>
+        
+        <!-- Preloader -->
+        <script type="text/javascript">
+            //<![CDATA[
+                $(window).load(function() { // makes sure the whole site is loaded
+                    $('#status').fadeOut(); // will first fade out the loading animation
+                    $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+                   
+                    $('body').delay(350).css({'overflow':'visible'});
+               
+                });
+            //]]>
+        </script>
+
+
+    </head>
+    <body>
+        <!-- Preloader -->
+        <div id="preloader">
+            <div id="status">&nbsp;</div>
+        </div>
+        
+            
+        <!-- Modal to buy if not logged in  -->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        Pikture Purchase Summary
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title"></h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Thank you for your interest and using Pikture.</p>
+                        <ul class="list-unstyled">
+                            <li>Artwork Title: Abstract</li>
+                            <li>Artwork ID: 12</li>
+                            <li>License type:
+                                <span class="glyphicon glyphicon-question-sign" data-toggle="modal" data-target="#license-modal"></span>
+                         
+                                <ul>
+                                    <li>Web ($ 50.00)</li>
+                                    <li>Print ($ 50.00)</li>
+                                    <li>Unlimited ($ 100.00)</li>
+                                    
+                                </ul></li>
+                        </ul>
+                        <p>Please call us at 1-800-PIK-TURE for customer support with the 
+                            Art ID above to purchase a license.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss="modal">OK</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal --> 
+            
+        <div id="wrapper">
+            <div id="header">
+                <div id ="standard-nav">
+                </div>
+            </div>
+            
+            <div id="content">
+                <div class ="container">
+                    <!--Secondary nav with search -->
+                    <div class="page-header" style="margin-top:0px;">
+                        <h1>Search Results</h1>
+                    </div>
+
+
+
+                    <!--Images with results -->
+                    <div class ="row">
+
+                        <div class = "col-sm-12 col-md-12 images-result">
+                            <div class ="row">
+                                <div  id = "search-alert" class="alert alert-info" style = "display: none;">
+                                    <span id = "search-alert-text"> </span></div>
+                                                             <div id = "mainwrapper">
+
+                                <div id ="search-results">
+                                </div>
+                                                             </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                
+                
+            </div>
+            
+            <div id="footer">
+                <div id ="standard-footer">
+                </div>
+            </div>
+        </div>
+
+        
+    </body>
+
+</html>
+
+

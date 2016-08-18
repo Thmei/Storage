@@ -1,0 +1,26 @@
+"data": [
+      {
+         "id":"75",
+	 "artist_id”:”185”,
+         "title": “Elephant”,
+         "description": “Elephants are adorable”,
+         "category": “Animals”,
+	"img_path" : "/~s16g10/pikture_data_engine/images/75/original.jpg”,
+	"img_path_medium" : "/~s16g10/pikture_data_engine/images/75/medium.jpeg",
+	"img_path_small" : "/~s16g10/pikture_data_engine/images/75/small.jpeg",
+	"site_visible" : “1”,
+	"byte_size" : "23291",
+	"license_print" : “100”,
+	"license_web" : “100”,
+	"license_unlimited" : “100”,
+	"view_count" : “20”,
+	"added_date" : "2016-05-16 21:35:41"
+      }
+   ]
+
+
+
+
+
+
+

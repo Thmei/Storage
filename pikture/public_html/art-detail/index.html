@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/~s16g10/common/css/homestyle.css">
+        <link rel="stylesheet" href="/~s16g10/common/css/common.css">
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/png" href="/~s16g10/img/favicon.png">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  
+
+        <script src="/~s16g10/common/js/common-scripts.js"></script>
+
+        <script src="/~s16g10/art-detail/js/art_detail_script.js"></script>
+
+
+        <!-- Preloader -->
+        <script type="text/javascript">
+            //<![CDATA[
+            $(window).load(function() { // makes sure the whole site is loaded
+                $('#status').fadeOut(); // will first fade out the loading animation
+                $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+
+                $('body').delay(350).css({'overflow': 'visible'});
+
+            });
+            //]]>
+        </script>
+
+    </head>
+    <body>
+
+        <!-- Preloader -->
+        <div id="preloader">
+            <div id="status">&nbsp;</div>
+        </div>
+
+
+        <!-- Modal -->
+
+        <!-- Modal for License offers -->
+
+        <div id="license-modal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-md">
+                <div class="modal-content">
+                    <div class="modal-header"><h2>Pikture Licenses</h2></div>
+                    <div class="modal-body">
+                        <h4><strong>We offer three kind of licenses</strong></h4>
+                        <ul class="list-unstyled">
+                            <li><strong>Web:</strong> A license to use the image on the web.</li>
+                            <li><strong>Print:</strong> A license to get a printed copy of the art.</li>
+                            <li><strong>Unlimited:</strong> A license to print and use the image on the web.</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default btn-success" data-dismiss="modal">OK</button>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <!-- end of modal -->
+
+
+        <!-- Modal to buy if not logged in  -->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        Pikture Purchase Summary
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title"></h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Thank you for your interest and using Pikture.</p>
+                        <p>The artwork has been added to your account</p>
+                        <ul class="list-unstyled">
+                            <li>Artwork Title: Abstract</li>
+                            <li>Artwork ID: 12</li>
+                            <li>License type: 
+                                <ul>
+                                    <li>Web ($ 50.0)</li>
+                                    <li>Print ($ 50.0)</li>
+                                    <li>Unlimited ($ 100.0)</li>
+
+                                </ul></li>
+                        </ul>
+                        <p>A confirmation email will be sent to you under pikture@mail.com within 1-2 business days. Otherwise, please contact us through our mail or call 1-800-PIK-TURE for customer support. Thank you. </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss="modal">OK</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal --> 
+
+        <div id ="standard-nav">
+        </div>
+
+        <div class ="container">
+            <div class="page-header" style="margin-top:0px;margin-bottom:0px;">
+                <h1><strong>Art Details</strong></h1>
+            </div>
+            <div class ="row">
+                <div class ="col-md-8 col-sm-8 col-xs-12" >
+                    <img src ="" id = "view-image" style = "max-width: 700px;">
+                </div>
+
+                <div class ="col-md-4 col-sm-4 col-xs-12" id ="image-details">
+                    <ul class="list-unstyled">
+
+                        <li><h4>Art Title:  <small><span id = "image-title"></span></small></h4>
+                        </li>
+                        <li><h4>Art ID: <small><span id = "image-id"></span></small></h4>
+                        </li>
+                        <li><h4>Art View Count: <small><span id = "image-view-count"></span></small></h4>
+                        </li>
+                        <li><h4>Artist: <small><span id = "image-artist"></span></small></h4>
+                        </li>
+
+                        <li><h4>Description:</h4>
+                            <ul><li id = "image-description"><p>An art that portrays irony.</p></li></ul>
+                        </li>
+
+                        <li><h4>Search Keywords:</h4>
+                            <ul><li id = "image-keywords"><p>abstract irony lady balloon</p></li></ul>
+                        </li>
+                        <li><h4>Licenses: <span class="glyphicon glyphicon-question-sign" data-toggle="modal" data-target="#license-modal"></span></h4></li>
+                        <li>
+                            <div class="form-group">
+                                <ul>
+
+                                    <li><label class="radio-inline row"><input type="radio" name="optradio">Web ($<span id = "image-web">50.00</span>)</label></li>
+                                    <li><label class="radio-inline row"><input type="radio" name="optradio">Print ($<span id = "image-print">50.00</span>)</label></li>
+                                    <li><label class="radio-inline row"><input type="radio" name="optradio">Unlimited ($<span id = "image-unlimited">100.00</span>)</label></li>
+                                </ul>        
+                            </div>
+                        </li>
+
+                        <li> <button type="button" class="btn btn-primary btn-lg btn-block" style = "margin-top:10px;"  data-toggle="modal" data-target="#myModal" >BUY</button> </li>
+                          <li> <button id="artist-profile-button" type="button" class="btn btn-info btn-lg btn-block" style = "margin-top:10px;" data-artist-id ="" >View artist profile</button> </li>
+                    </ul>
+                </div>
+
+            </div>
+            <hr style="width: 100%; color: black; height: 1px; background-color:black;" />
+
+            <div class = "container art-thumbnails"  id ="art-thumbnails">
+               
+                <div class="row">
+                    <div id="mainwrapper">
+                        <div id = "more-images" class="container">
+                            <h3><strong>More art from the same artist:</strong></h3>
+                           
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div id ="standard-footer">
+        </div>
+
+
+
+    </body>
+</html>

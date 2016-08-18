@@ -1,0 +1,300 @@
+
+<!DOCTYPE html>
+<html>
+        <!--test -->
+    <head>
+        <title>Pikture!</title>
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/png" href="/~s16g10/img/favicon.png">
+        
+        <link rel="stylesheet" href="/~s16g10/common/css/homestyle.css">
+        <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="/~s16g10/common/css/common.css">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+         <script src="/~s16g10/common/js/common-scripts.js"></script>
+        <script src="/~s16g10/common/js/home.js"></script>
+        
+        
+        
+    </head>
+    
+    <body>
+        <!-- Preloader -->
+        <div id="preloader">
+            <div id="status">&nbsp;</div>
+        </div>
+        
+        
+        <!-- Modal to buy if not logged in  -->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        Pikture 
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title"></h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Thank you for your interest and using Pikture.</p>
+                        <ul class="list-unstyled">
+                            <li>Artwork Title: Abstract</li>
+                            <li>Artwork ID: 12</li>
+                            <li>License type:
+                                <span class="glyphicon glyphicon-question-sign" data-toggle="modal" data-target="#license-modal"></span>
+                         
+                                <ul>
+                                    <li>Web ($ 50.00)</li>
+                                    <li>Print ($ 50.00)</li>
+                                    <li>Unlimited ($ 100.00)</li>
+                                    
+                                </ul></li>
+                        </ul>
+                        <p>Please call us at 1-800-PIK-TURE for customer support with the 
+                            Art ID above to purchase a license.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss="modal">OK</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal --> 
+        
+        
+        <!-- Modal for License offers -->
+        
+        <div id="license-modal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-md">
+                <div class="modal-content">
+                    <div class="modal-header"><h2>Pikture Licenses</h2></div>
+                    <div class="modal-body">
+                        <h4><strong>We offer three kind of licenses:</strong></h4>
+                        <ul class="list-unstyled">
+                            <li><strong>Web:</strong> A license to use the image on the web.</li>
+                            <li><strong>Print:</strong> A license to get a printed copy of the art.</li>
+                            <li><strong>Unlimited:</strong> A license to print and use the image on the web.</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default btn-success" data-dismiss="modal">OK</button>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+        <!-- end of modal -->
+        
+        <!-- Header -->
+        <div id ="standard-nav">
+        </div>
+
+        <div class="row">
+            <!-- Carousel -->
+            <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-top:-20px;">
+                <!-- Indicators -->
+                <!-- Static Header -->
+                <!-- hidden-xs  -->
+                <div class="overlay header-text hidden-xs">
+                    <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                        <h2>
+                            <span>Welcome to <strong style="color:#E8A53D;">pik</strong>ture.us</span>
+                        </h2>
+                        <br>
+                        <h3>
+                            <span>The licensing site that will meet all your media needs. </span>
+                        </h3>
+                        <br>
+                        
+                        <div class="row">
+                            <div style="padding-right:100px;padding-left:100px;">
+                                <div class="input-group input-group-lg"  >
+                                    <!--
+                                    <span class="input-group-addon" >
+                                        <span class="glyphicon glyphicon-search"  aria-hidden="true"></span>
+                                    </span>
+                                    <input id= "searchInput"  style="height:50px;" type="text" class="form-control search-bar" placeholder="Search for...">
+                                    <span class="input-group-btn">
+                                        <button id = "search-button" class="btn btn-default search-bar" type="button">Search!</button>
+                                    </span>
+                                    -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- /header-text -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                
+                <!-- Wrapper for slides -->
+                <div id = "carousel-images" class="carousel-inner">
+                   
+   
+                </div>
+               
+                
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div><!-- /carousel -->
+            
+            
+        </div>
+        
+        <div class="text-center" style="background-color:#DECDB8">
+
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 style = "text-align:center;font-weight: 700;" > Explore, browse, and search </h1>
+                        <h3 style = "text-align:center;">Navigate through a diverse and substantial collection of various media from photography to video!</h3>
+                        <h3 style = "text-align:center;">Scroll through our database of high resolution images and buy with just one click.</h3>
+                        <br>
+                    </div>
+                </div>
+                <!-- /.row -->
+
+            </div>
+            <!-- /.container -->
+        </div>
+        
+            
+        <div class = "container art-thumbnails"  id ="art-thumbnails">
+            <br>
+            <div class="row">
+                <div id="mainwrapper">
+                    <div id = "popular-images" class="container">
+                        <h2><strong> Featured Images</strong></h2>
+                        <hr style="width: 100%; color: black; height: 1px; background-color:black;" />
+
+                         
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+            
+            <div class="row">
+                <div style = "display:block;height:450px;background-color:#DECDB8;">
+                    <div style ="padding:10px 80px 10px 80px;">
+                        <div class="col-lg-4 col-md-4 col-sm-4" style = "padding-right: 10px;">
+                            <img src ="/~s16g10/img/profile.png" class ="img-rounded" style = "max-height:400px;"/>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-8" style = "padding: 10px;">
+                            <h3 style = "font-weight: 700; padding-left: 10px;">Meet Pikture's artist of the week!</h3>
+                            <br>
+                            <h4> This is our artist of the month. She grew up in New York City and befriended a famous artist. After 
+                            being friends with this artist for 2 years, she decided to become an artist herself. She went to art dot
+                            university and got a degree in art. She entered a contest at one point and won grand prize of twenty bucks.
+                            She is on her way to become an amazing artist.</h4>
+                            <br>
+                            <!-- <button class ="btn btn-primary btn-lg">Check out their profile</button> -->
+                            <h2><a href="/~s16g10/user-profile/index.php"><button type="button" class="btn btn-primary btn-lg outline" style = "margin-top:10px;">Check out their Profile!</button></a></h2>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class = "container artist-thumbnails" id ="art-thumbnails">
+
+                <div class="row">
+                    <h2><strong>Featured Artists</strong></h2>
+                    <hr style="width: 100%; color: black; height: 1px; background-color:black;" />
+                    <div class="col-md-4 col-sm-6 col-xs-12" style = "padding: 10px;">
+                        <div style = "background: white; border:10px solid white;">
+                            <span class="thumbnail" style = "border:1px solid white !important;">
+                                <img data-artist-id = "181" src="/~s16g10/img/me.jpg" style="max-height: 170px;width:50%; height:50%" class=" user img-thumbnail img-responsive img-circle">
+                            </span>
+                            <div class="caption" style="padding-left:15px; padding-right:15px;">
+                                <center><h5><span id ="artist-name">tanya kuznetsova</span></h5></center>
+                                <h5><a href="#" data-artist-id = "181" role="button" class="user btn btn-primary btn-lg center-block text-center outline" style = "margin-top:10px;">View Profile</a></h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12" style = "padding: 10px;">
+                        <div style = "background: white; border:10px solid white;">
+                            <span class="thumbnail" style = "border:1px solid white !important;">
+                                <img data-artist-id = "187" src="/~s16g10/img/heisenburg.jpeg" style="max-height: 170px;width:50%; height:50%" class="user img-thumbnail img-responsive img-circle">
+                            </span>
+                            <div class="caption" style="padding-left:15px; padding-right:15px;">
+                                <center><h5><span id ="artist-name">Walter White</span></h5></center>
+                                <h5><a href="#" data-artist-id = "187" role="button" class="user btn btn-primary btn-lg center-block text-center outline" style = "margin-top:10px;">View Profile</a></h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12" style = "padding: 10px;">
+                        <div style = "background: white; border:10px solid white;">
+                            <span class="thumbnail" style = "border:1px solid white !important;">
+                                <img data-artist-id = "198" src="/~s16g10/img/thomas.jpg" style="max-height: 170px;width:50%; height:50%" class="user  img-thumbnail img-responsive img-circle">
+                            </span>
+                            <div class="caption" style="padding-left:15px; padding-right:15px;">
+                                <center><h5><span id ="artist-name">Thomas Smith</span></h5></center>
+                                <h5><a data-artist-id = "198" href="#" role="button" class="user btn btn-primary btn-lg center-block text-center outline" style = "margin-top:10px;">View Profile</a></h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+            </div>
+            </div>
+        
+            <div class="text-center" style="background-color:black; color: #80C0FF; margin-bottom:-50px;">
+                <div class="row" style="text-align:center;">
+                        <h1 style="color:white;">Licenses offers</h1>
+                        <div class="col-lg-4 col-md-4" >
+                            <h2 >Web &nbsp <span class="glyphicon glyphicon-globe"></span></h2>
+                            <p>A license to use the image only on the web</p>
+                            <button type="button" class="btn btn-primary btn-lg center-block text-center outline" style = "margin-top:10px;"  data-toggle="modal" data-target="#sign-up-modal">Register now!</button> </h4>
+                            <br><br>
+                        </div>
+
+                        <div class="col-lg-4 col-md-4">
+                            <h2>Print &nbsp<span class="glyphicon glyphicon-print"></span></h2>
+                            <p>A license to get a printed copy of the art</p>
+                            <button type="button" class="btn btn-primary btn-lg center-block text-center outline" style = "margin-top:10px;"  data-toggle="modal" data-target="#sign-up-modal">Register now!</button> </h4>
+                            <br><br>
+                        </div>
+
+                        <div class="col-lg-4 col-md-4">
+                            <h2>Unlimited &nbsp<span class="glyphicon glyphicon-ok"></span></h2>
+                            <p>A license to print and use the image on the web</p>
+                            <button type="button" class="btn btn-primary btn-lg center-block text-center outline" style = "margin-top:10px;"  data-toggle="modal" data-target="#sign-up-modal">Register now!</button> </h4>
+                            <br><br>
+                        </div>
+                      
+                    </div>
+            </div>
+            
+
+
+            <div id ="standard-footer">
+            </div>
+
+
+
+            </body>
+</html>

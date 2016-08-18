@@ -1,0 +1,254 @@
+body{
+    font-family: 'Lato', Arial, Helvetica, sans-serif !important;
+    
+}
+
+body{
+    background-color: #eff0f0   !important;
+}
+
+
+
+#pointer-icon {
+    cursor:pointer;
+}
+
+
+
+
+ul{
+    
+}
+
+.logo-navbar{
+    max-width: 100%;
+    width: 100%;
+}
+
+.art-thumbnails{
+    margin-bottom:50px;
+}
+
+/*Testing overlay image*/
+
+/*end test*/
+
+
+
+.overlay { 
+  color:#fff;
+  position:absolute;
+  z-index:12;
+  top:30%;
+  left:0;
+  width:100%;
+  text-align:center;
+}
+
+
+
+/* Half Page Height Carousel Customization */
+.carousel {
+  height: 50%;
+}
+
+.item,
+.active,
+.carousel-inner {
+  max-height:600px
+}
+
+.carousel-inner > .item > img{
+       width:100%;
+       
+      
+     }
+
+/***********************
+  CUSTOM THUMBNAILS AND BUTTONS
+************************/
+
+
+.stylish-panel {
+    padding: 20px 0;
+    text-align: center;
+}
+.stylish-panel > div > div{
+    padding: 10px;
+    border: 5px;
+    border-radius: 4px;
+    transition: 0.2s;
+
+}
+.stylish-panel > div:hover > div{
+    margin-top: -10px;
+    border: 1px solid #DECDB8;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+    background: rgba(200, 200, 200, 0.1);
+    transition: 0.5s;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 10px 16px;
+}
+  
+.btn-lg {
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #3276b1;
+  border-color: #285e8e;
+}
+
+/***********************
+  OUTLINE BUTTONS
+************************/
+
+.btn.outline {
+    background: none;
+    padding: 12px 22px;
+}
+.btn-primary.outline {
+    border: 2px solid #0099cc;
+    color: #0099cc;
+}
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+    color: #ffffff;
+    border-color: #000000;
+}
+.btn-primary.outline:active, .btn-primary.outline.active {
+    border-color: #007299;
+    color: #007299;
+    box-shadow: none;
+}
+
+/***********************
+  CUSTOM BTN VALUES
+************************/
+
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+
+
+
+/* Carousel Header Styles */
+.header-text {
+    position: absolute;
+    top: 20%;
+    left: 1.8%;
+    right: auto;
+    width: 96.66666666666666%;
+    color: #fff;
+}
+
+.header-text h2 {
+    font-size: 50px;
+}
+
+.header-text h3 {
+    font-size: 30px;
+}
+
+.header-text h2 span {
+    background-color: #2980b9;
+	padding: 10px;
+}
+
+.header-text h3 span {
+	background-color: #222222;
+	padding: 15px;
+}
+
+.btn-min-block {
+    min-width: 170px;
+    line-height: 26px;
+}
+
+.btn-theme {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    margin-right: 15px;
+}
+
+.btn-theme:hover {
+    color: #000;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+
+
+footer{
+   text-align: center;
+   background-color: #222222; 
+   height: 100px;
+   margin-top: 50px;
+   color: #D3D3D3;
+}
+
+/* Extra small devices (phones, up to 480px) */
+@media screen and (max-width: 767px) {
+        body{font-size: 14px;}
+    h1{font-size: 28px !important;}
+    h2{font-size: 24px!important;}
+    h3{font-size: 18px!important;}
+
+
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    body{font-size: 10px;}
+    h1{font-size: 30px!important;}
+    h2{font-size: 26px!important;}
+    h3{font-size: 20px!important;}
+}
+
+/* tablets/desktops and up ----------- */
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+}
+/* large desktops and up ----------- */
+@media screen and (min-width: 1200px) {
+}
+

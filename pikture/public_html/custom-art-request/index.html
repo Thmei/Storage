@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Request Art</title>
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/~s16g10/common/css/homestyle.css">
+        <link rel="stylesheet" href="/~s16g10/common/css/common.css">
+        
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/png" href="/~s16g10/img/favicon.png">
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>     
+        <script src="/~s16g10/browse/js/browse-script.js"></script>
+        
+         <!-- Preloader -->
+        <script type="text/javascript">
+            //<![CDATA[
+                $(window).load(function() { // makes sure the whole site is loaded
+                    $('#status').fadeOut(); // will first fade out the loading animation
+                    $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+                   
+                    $('body').delay(350).css({'overflow':'visible'});
+               
+                });
+            //]]>
+        </script>
+    </head>
+    <body>
+        
+        <!-- Preloader -->
+        <div id="preloader">
+            <div id="status">&nbsp;</div>
+        </div>
+        <div id ="standard-nav">
+        </div>
+        
+        <div class="container">
+        <h1>Add an Custom Art Request</h1>
+            <form role="form" class="form-horizontal">
+                <div class="form-group">
+                    <label for="title" class="control-label col-sm-2">Title:</label>
+                    <div class="col-sm-5">
+                        <input type="text" id="name" class="form-control">
+                    </div>
+                </div>
+            
+                <div class="form-group">
+                    <label for="desc" class="control-label col-sm-2">Description</label>
+                    <div class="col-sm-5">
+                    <textarea class="form-control" rows ="6" id="desc" placeholder="Input something..."></textarea>
+                    </div>
+                </div>
+             
+                
+                <div class="form-group">
+                    <label for="month" class="col-sm-2 control-label">Due Month</label>
+                    <div class="col-sm-2">
+                    <select class="form-control">
+                        <option>Jan</option>
+                        <option>Feb</option>
+                        <option>Mar</option>
+                        <option>Apr</option>
+                        <option>May</option>
+                        <option>Jun</option>
+                        <option>Jul</option>
+                        <option>Aug</option>
+                        <option>Sep</option>
+                        <option>Oct</option>
+                        <option>Nov</option>
+                        <option>Dec</option>
+                    </select>
+                    </div>
+                    
+                    <label for="day" class="col-sm-1 control-label">Due day</label>
+                    <div class="col-sm-2">
+                    <select class="form-control">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                        <option>26</option>
+                        <option>27</option>
+                        <option>28</option>
+                        <option>29</option>
+                        <option>30</option>
+                        <option>31</option>
+                    </select>
+                    </div>
+                </div>
+                
+                <div class ="form-group">
+                    <label for="tags" class="control-label col-sm-2">Tags</label>
+                    <div class="col-sm-5">
+                    <input type="text" id="name" class="form-control" placeholder="separate each tag with spaces">
+                    </div>
+                </div>
+                    
+                    
+         
+                <div class="form-group">
+                    <label for="category" class="control-label col-sm-2">Category</label>
+                    <div class="col-sm-3">
+                        <select class="form-control">
+                            <option>Apple</option>
+                            <option>Bear</option>
+                            <option>Cat</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class ="form-group">
+                    <label for="price" class="control-label col-sm-2">Price offer</label>
+                    <div class="col-sm-2">
+                    <input type="text" id="name" class="form-control" >
+                    </div>
+                </div>
+
+            <h3>Contact Information</h3>
+            <div class ="form-group">
+                <label for="fname" class="control-label col-sm-2">First Name</label>
+                <div class="col-sm-4">
+                <input type="text" id="name" class="form-control">
+                </div>
+            </div>
+            
+            <div class ="form-group">
+                <label for="lname" class="control-label col-sm-2">Last Name</label>
+                <div class="col-sm-4">
+                <input type="text" id="name" class="form-control">
+                </div>
+            </div>
+            
+            <div class="form-group">
+		<label for="email" class="control-label col-sm-2">E-mail</label>
+                    <div class="col-sm-4">
+			<input type="email" id="name" class="form-control" >
+                    </div>
+            </div>
+            
+            <center>
+            <button type ="button" class="btn btn-primary" data-toggle="modal" data-target="#confirm">Add Request</button>
+            <a href="../art-requests/index.html" class="btn btn-primary" role="button">Cancel</a>
+            </center>
+        </form>
+        </div>
+        
+                    <!-- send confirmation modal -->
+                    <div id="confirm" class="modal fade" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title"></h4>
+                        </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <h2>Thank you.</h2>
+                            <h3>your request has been added</h3>
+                        </div>    
+                    </div>
+                    <div class="modal-footer">
+                        <a href="../art-requests/index.html"><button type="button" class="btn btn-primary" style="margin-top:10px">Ok</button></a>
+                    </div>    
+                    </div>
+                    </div>
+                    </div> <!--end of modal -->
+        <div id ="standard-footer">
+        </div>
+    </body>
+</html>

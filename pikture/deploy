@@ -1,0 +1,12 @@
+# Script to checkout pikture project 
+# from SVN and automatically copy it into 
+# public_html folder.
+
+if [[ $# -eq 0 ]] ; then
+    echo 'Usage: deploy <SVN user name>'
+    exit 1
+fi
+
+svn --username $1 checkout http://sfsuswe.com/svn/s16g10/trunk/
+mkdir -p public_html
+cp -r trunk/pikture/public_html/* public_html/

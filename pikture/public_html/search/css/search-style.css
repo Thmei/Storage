@@ -1,0 +1,198 @@
+.login_info{
+    margin:20px !important;
+}
+
+body{
+    font-family: 'Lato', Arial, Helvetica, sans-serif !important;
+    
+}
+
+body{
+    background-color: #eff0f0   !important;
+}
+
+/* Preloader */
+
+body {
+    overflow: hidden;
+}
+
+#preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    
+    background-color:#fff; /* change if the mask should have another color then white */
+    z-index:99; /* makes sure it stays on top */
+}
+
+#status {
+    width:200px;
+    height:200px;
+    position:absolute;
+    left:50%; /* centers the loading animation horizontally one the screen */
+    top:50%; /* centers the loading animation vertically one the screen */
+    background-image:url(../img/status.gif); /* path to your loading animation */
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-100px 0 0 -100px; /* is width and height divided by two */
+}
+
+
+/* End preloader */
+
+/** glyphicon spin **/
+.glyphicon-refresh-animate {
+    -animation: spin 1s infinite linear;
+    -webkit-animation: spin2 1s infinite linear;
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg);}
+    to { transform: scale(1) rotate(360deg);}
+}
+
+
+.search-bar{
+    height:35px!important;
+}
+
+.search-button{
+    height:35px!important;
+}
+
+
+footer{
+   text-align: center;
+   background-color: #222222; 
+   height: 90px;
+   margin-top: 50px;
+   color: #D3D3D3;
+   margin-bottom:0px;
+}
+
+#footer-container{
+padding:10px;
+}
+
+
+
+#footer-links a{
+    padding-right:70px;
+    padding-left:70px;
+    color: #9d9d9d;
+}
+
+#footer-links a:hover{
+    padding:70px;
+    color: white;
+    text-decoration:none;
+    
+}
+
+/***********************
+  IMAGE TEXT OVERLAY
+************************/
+
+#mainwrapper .box {
+    border: 5px solid #fff;
+    cursor: pointer;
+    height: 213px;
+    float: left;
+    margin: 5px;
+    position: relative;
+    overflow: hidden;
+    width: 345px;
+    -webkit-box-shadow: 1px 1px 1px 1px #ccc;
+    -moz-box-shadow: 1px 1px 1px 1px #ccc;
+    box-shadow: 1px 1px 1px 1px #ccc;
+}
+ 
+#mainwrapper .box img {
+    position: absolute;
+    left: 0;
+    min-width: 320px;
+    min-height: 213px;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
+
+#mainwrapper .box .caption .scale-caption {
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    height: 213px;
+    width: 320px;
+    color: #fff;
+    z-index: 100;
+    
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    left: 0;
+}
+
+#mainwrapper .box .scale-caption h3, #mainwrapper .box .scale-caption p {
+    position: relative;
+    top: -200px;
+    width: 100%;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
+ 
+#mainwrapper .box .scale-caption h3 {
+
+    -webkit-transition-delay: 300ms;
+    -moz-transition-delay: 300ms;
+    -o-transition-delay: 300ms;
+    -ms-transition-delay: 300ms;
+    transition-delay: 300ms;
+}
+ 
+#mainwrapper .box .scale-caption p {
+    -webkit-transition-delay: 500ms;
+    -moz-transition-delay: 500ms;
+    -o-transition-delay: 500ms;
+    -ms-transition-delay: 500ms;
+    transition-delay: 500ms;
+}
+
+#mainwrapper .box:hover .image-float {
+    opacity: 0.3;
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#mainwrapper .box:hover .scale-caption h3 {
+    -moz-transform: translateY(200px);
+    -o-transform: translateY(200px);
+    -webkit-transform: translateY(200px);
+    transform: translateY(200px);
+}
+
+#mainwrapper .box:hover .scale-caption p {
+    -moz-transform: translateY(200px);
+    -o-transform: translateY(200px);
+    -webkit-transform: translateY(200px);
+    transform: translateY(200px);
+}
+
+
+/*  END TEXT OVERLAY */
+

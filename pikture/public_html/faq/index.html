@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="../browse/css/browsestyle.css">
+        <link rel="stylesheet" href="../common/css/common.css">
+        
+        <style type="text/css">
+            html,
+            body {
+                    margin:0;
+                    padding:0;
+                    height:100%;
+            }
+            #wrapper {
+                    min-height:100%;
+                    position:relative;
+            }
+            #header {
+             
+                    padding-bottom:10px;
+            }
+            #content {
+                    padding-bottom:90px; /* Height of the footer element */
+            }
+            #footer {
+                    
+                    width:100%;
+                    height:100px;
+                    position:absolute;
+                    bottom:0;
+                    left:0;
+            }
+            
+        </style>
+        
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/png" href="/~s16g10/img/favicon.png">
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  
+
+        <script src="/~s16g10/browse/js/browse-script.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="/path/to/inputTags.jquery.js"></script>
+        
+         <!-- Preloader -->
+        <script type="text/javascript">
+            //<![CDATA[
+                $(window).load(function() { // makes sure the whole site is loaded
+                    $('#status').fadeOut(); // will first fade out the loading animation
+                    $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+                   
+                    $('body').delay(350).css({'overflow':'visible'});
+               
+                }); 
+                //standard-nav
+                $.get("/~s16g10/common/header.php", function (data) {
+                    $("#standard-nav").append(data);
+                });
+
+                //standard-footer
+                $.get("/~s16g10/common/footer.html", function (data) {
+                    $("#standard-footer").append(data);
+                });
+            //]]>
+        </script>
+    </head>
+    <body>
+        
+        <!-- Preloader -->
+        <div id="preloader">
+            <div id="status">&nbsp;</div>
+        </div>
+        
+        <div id="wrapper">
+            
+            <div id="header">
+            <div id ="standard-nav">
+            </div>
+            </div>
+            
+            <div id="content">
+                <!-- accordion faq -->
+        
+                <div class="container">
+
+                    <div class="row">
+
+                    <div class="col-lg-12">
+                        <h2>Frequently Asked Questions</h2>
+                        <p>Click on the questions to see the answers, thank you </p>
+
+                        <div class="panel-group" id="accordion">
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                            What is Pikture?
+                          </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseOne" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        Pikture is a Website designed to allow artists to sell their media with various licensing options.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                            What is special about Pikture?
+                          </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        What is special about Pikture is that customers can post art requests which artists can then accept.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                            Do I need to log in to use this site?
+                          </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseThree" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        Yes. To be able to upload an art, you need to be registered as an Artist user. In addition, to buy, you need to be registered as a Customer user.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                            What type of licensing is there?
+                          </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseFour" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <p>There are three kinds of licenses:</p>
+                                        <ol>
+                                            <li>Unlimited License - A license to print and use the image on the Web</li>
+                                            <li>Printed License - A license to get a printed copy of the art.</li>
+                                            <li>Web License - A license to use the image on the web.</li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+                            What types of accounts are available?
+                          </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseFive" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <p>There are three kinds of accounts:</p>
+                                        <ol>
+                                            <li>Artist - You will be able to upload and sell the arts that you make depending on what license.</li>
+                                            <li>Customer - You will be able to purchase a license of an art</li>
+                                            <li>Admin - You will be responsible for the database of the site.</li>
+                                        </ol>                            
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
+                            How can I search for specific images on the website?
+                          </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseSix" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        You can browse images by categories or search by free text – both options are available.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">
+                            What kind of statistics is available to the artists using the website?
+                          </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseSeven" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        An artist can see statistics on number of clicks for all of his/her images. The statistics are presented in the form of a visual graph making it really easy to see how popular the artist images are.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseNine">
+                            What is the answer to life?
+                          </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseNine" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        42.
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                </div>
+        <!-- end container faq -->
+            </div>
+
+
+
+            <div id="footer">     
+                <div id ="standard-footer">
+                </div>
+            </div>
+            
+        </div>
+    </body>
+</html>

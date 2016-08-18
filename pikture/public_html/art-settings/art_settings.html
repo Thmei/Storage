@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--<link rel="stylesheet" href="/~s16g10/common/css/homestyle.css">-->
+        <link rel="stylesheet" href="/~s16g10/common/css/common.css">
+        
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/png" href="/~s16g10/img/favicon.png">
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  
+
+        <script src="/~s16g10/art-settings/js/art_settings.js"></script>
+        <script src="/~s16g10/common/js/common-scripts.js"></script>
+        
+        <!-- Preloader -->
+        <script type="text/javascript">
+            //<![CDATA[
+                $(window).load(function() { // makes sure the whole site is loaded
+                    $('#status').fadeOut(); // will first fade out the loading animation
+                    $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+                   
+                    $('body').delay(350).css({'overflow':'visible'});
+               
+                });
+            //]]>
+        </script>
+
+    </head>
+    <body>
+        <!-- Preloader -->
+        <div id="preloader">
+            <div id="status">&nbsp;</div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        Purchase item
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title"></h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Thank you for your interest in this media. Please log in or sign up to purchase the item.</p>
+                        <ul class="list-unstyled">
+
+                            <li>User name</li>
+                            <li><input id = "username"></input></li>
+                            <li>Password</li>
+                            <li><input id = "passsword"></input></li>
+
+                            <li><button type="button" class="btn btn-primary" style = "margin-top:10px;">Log in</button></li>
+                            <br>
+                            <li><a href="/~s16g10/sign-up/index.html">If you don't have an account, click here to sign up!</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal -->    
+
+
+        <div id ="standard-nav">
+        </div>
+
+        <div class ="container">
+
+            <div class="page-header row" style="margin-top:0px;margin-bottom:0px">
+                <h1>Art Settings<small></small></h1>
+            </div>
+            <div class ="row">
+
+                <div class ="col-md-8 col-sm-8 col-xs-12" >
+                     <img src ="" id = "view-image" style = "max-width: 700px;">
+                 </div>
+                
+
+                <div class ="col-md-4 col-sm-4 col-xs-12" id ="image-details">
+                    <form class = "form-horizontal" action="/~s16g10/art-settings/art_settings.html">
+                        <div class ="form-group">
+                            <label for ="title">Title</label>
+                            <input class="form-control" id ="title" placeholder = "Art title"/>
+                        </div>
+                        
+                        <div class ="form-group">
+                            <label for ="description">Description</label>
+                            <textarea class="form-control" rows="3" id="description" placeholder = "Enter Description"></textarea>
+                        </div>
+                        
+                        <div class ="form-group">
+                            <label for ="keywords">Search keywords:</label>
+                            <input class="form-control" id ="tag" placeholder = "Separate each keyword by whitespaces"/>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="category">Categories</label>
+                            <div class="btn-group">
+                                <button data-toggle="dropdown" class="btn btn-default dropdown-toggle" data-label-placement>Click to choose  <span class="caret"></span></button>
+                                <ul class="dropdown-menu" style="padding-left:5px;">
+                                    <li><input type="checkbox" id="ID" name="NAME" value="Animal"><label for="ID">&nbsp;Animal</label></li>
+                                    <li><input type="checkbox" id="ID" name="NAME" value="Beauty"><label for="ID">&nbsp;Beauty</label></li>
+                                    <li><input type="checkbox" id="ID" name="NAME" value="Flower"><label for="ID">&nbsp;Flower</label></li>
+                                    <li><input type="checkbox" id="ID" name="NAME" value="Food"><label for="ID">&nbsp;Food</label></li>
+                                    <li><input type="checkbox" id="ID" name="NAME" value="Landscape"><label for="ID">&nbsp;Landscape</label></li>
+                                    <li><input type="checkbox" id="ID" name="NAME" value="Nature"><label for="ID">&nbsp;Nature</label></li>
+                                    <li><input type="checkbox" id="ID" name="NAME" value="Sport"><label for="ID">&nbsp;Sport</label></li>
+                                    <li><input type="checkbox" id="ID" name="NAME" value="Travel"><label for="ID">&nbsp;Travel</label></li>
+                                    <li><input type="checkbox" id="ID" name="NAME" value="Vintage"><label for="ID">&nbsp;Vintage</label></li>
+                                    <li><input type="checkbox" id="ID" name="NAME" value="Other"><label for="ID">&nbsp;Other</label></li>
+                                    <!-- Other items -->
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class ="form-group form-inline">
+
+                            <label for ="licenses">Licenses</label>
+                            <p class="help-block">Set a price for each licenses you're offering.</p>
+
+                            <div class="checkbox">
+                                
+                                <label for ="unlimited">Unlimited:</label>
+                               
+                                <input class="form-control price" id ="unlimited-price" placeholder = "$0.00"/>
+                            </div>
+                        </div>
+                        <div class ="form-group form-inline">
+                            <div class="checkbox">
+                               
+                                <label for ="web">Web:</label>
+                               
+                                <input class="form-control price" id ="web-price" placeholder = "$0.00"/>
+                            </div>
+                        </div>
+                        <div class ="form-group form-inline">
+                            <div class="checkbox">
+                                
+                                <label for ="print">Print:</label>
+                               
+                                <input class="form-control price" id ="print-price" placeholder = "$0.00"/>
+                            </div>
+                        </div>
+
+                        <button id="save" type="submit" class="btn btn-primary">Save</button>
+                        <button id="delete" type="button" class="btn btn-default">Delete Artwork</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+        <div id ="standard-footer">
+        </div>
+
+
+
+    </body>
+</html>

@@ -1,0 +1,8 @@
+GUIDELINES FOR PROGRAMMING PIKTURE IN PHP
+[Reference to general guidelines here: http://www.php-fig.org/psr/psr-2/]
+
+-All indents must be 4 spaces (not tabs)
+-Variable names must use snake-case (example: my_variable)
+-Class names must be upper-camel-case (example: MyClass)
+-function names must be came-case (example: myFunction)
+-Comments should be at the block level, not the line level

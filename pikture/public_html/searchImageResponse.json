@@ -1,0 +1,55 @@
+{
+    "responseType": "success",
+    "requestType" : "IMAGE_SEARCH",
+    "requestString" : "cat and dogs",
+    "numberOfResults" : "6",
+   "imageSearchResults": [
+	
+      {
+         "id":"1",
+	 "url":"uploads/108H.jpg",
+         "name": "Balloon Girl",
+         "description": "Girl walking with an assortment of different colored balloons",
+         "tags": "balloon rainbow girl"
+      },
+		
+      {
+         "id":"2",
+	 "url":"uploads/198H.jpg",
+         "name": "Roller Coaster",
+         "description": "Image of roller coaster",
+         "tags": "roller coaster"
+      },
+
+      {
+         "id":"3",
+	 "url":"uploads/251H.jpg",
+         "name": "City Life",
+         "description": "Stroll through New York City",
+         "tags": "city"
+      },
+
+      {
+         "id":"4",
+	 "url":"uploads/261H.jpg",
+         "name": "Bliss",
+         "description": "Coffee beans",
+         "tags": "coffee beans brown"
+      }	,
+      
+      {
+         "id":"5",
+	 "url":"uploads/204H.jpg",
+         "name": "Sunset",
+         "description": "At sunset, reds, pinks and yellow",
+         "tags": "sunset"
+      }	,
+       {
+         "id":"6",
+	 "url":"uploads/252H.jpg",
+         "name": "Vines",
+         "description": "Vines growing up the side of a building with a vintage look.",
+         "tags": "vines nature building bricks"
+      }	
+   ]
+}

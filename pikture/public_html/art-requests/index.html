@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Request Art!</title>
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+        <!--<link rel="stylesheet" href="/~s16g10/common/css/homestyle.css">-->
+        <link rel="stylesheet" href="/~s16g10/common/css/common.css">
+
+        <script src="/~s16g10/common/js/home.js"></script>
+        <script src="/~s16g10/common/js/common-scripts.js"></script>
+        <script src="/~s16g10/art-requests/js/art-request-script.js"></script>
+
+        <!-- Footer bottom position - fixed (test) -->
+        <style type="text/css">
+            html,
+            body {
+                margin:0;
+                padding:0;
+                height:100%;
+            }
+            #wrapper {
+                min-height:100%;
+                position:relative;
+            }
+            #header {
+
+                padding-bottom:10px;
+            }
+            #content {
+                padding-bottom:90px; /* Height of the footer element */
+            }
+            #footer {
+
+                width:100%;
+                height:100px;
+                position:absolute;
+                bottom:0;
+                left:0;
+            }
+            .btn {
+            display: inline-block;
+            padding: 6px 12px;
+            margin-bottom: 0;
+            font-size: 14px;
+            font-weight: normal;
+            line-height: 1.42857143;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: middle;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            background-image: none;
+            //border: 1px solid transparent;
+            border-radius: 4px;
+            padding: 10px 16px;
+            }
+            
+            
+            
+
+
+        </style>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/png" href="/~s16g10/img/favicon.png">
+        <!-- Preloader -->
+        <script type="text/javascript">
+            //<![CDATA[
+            $(window).load(function() { // makes sure the whole site is loaded
+                $('#status').fadeOut(); // will first fade out the loading animation
+                $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+
+                $('body').delay(350).css({'overflow': 'visible'});
+
+            });
+//                    //standard-nav
+//                    $.get("/~s16g10/common/header.php", function (data) {
+//                        $("#standard-nav").append(data);
+//                    });
+//
+//                    //standard-footer
+//                    $.get("/~s16g10/common/footer.html", function (data) {
+//                        $("#standard-footer").append(data);
+//                    });
+            //]]>
+        </script>
+    </head>
+    <body>
+
+        <!-- Preloader -->
+        <div id="preloader">
+            <div id="status">&nbsp;</div>
+        </div>
+
+
+
+        <div id="wrapper">
+            <div id="header">
+
+                <div id ="standard-nav">
+                </div>
+            </div>
+
+            <div id="content">
+                <div class="container" style="background-color: #DECDB8; width: 100%; margin-top: -30px">
+                    <div class="row" style="margin-top:20px">
+                        <center>
+                            <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#custom_request">Add an Custom Art Request</button>
+                            <h3>OR</h3>
+                            <h3><strong>Choose a Request below</strong></h3>
+                        </center>
+                    </div>
+                </div>
+
+                <div class="container">
+
+                    <!--   
+                       
+                       <div class="panel-group" id="accordion">
+                           <div class="panel panel-default">
+                               <div class="panel-heading">
+                                   <h3><a data-toggle="collapse" data-parent="#accordion" href="#collapse1"><span id = "art-item-title">Title</span><span class="glyphicon glyphicon-chevron-down pull-right"></span></a></h3>
+   
+                               </div>
+                               <div id="collapse1" class="panel-collapse collapse">
+                                   <div class="panel-body">    
+                                       <h4 id = "art-item-description">Description:</h4>
+                                       <h4 id = "art-item-due-date">Due Date:</h4>
+                                       <h4 id = "art-item-price">Price offer:</h4>
+                                       <h4 id = "art-item-bid">Current Bid offer:</h4>
+                                       <center>
+                                           <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Accept Request</button>
+                                       </center>
+                                   </div>
+                               </div>
+                           </div>
+                           
+   
+                       </div>
+                    -->
+
+
+                    <div class="panel-group art-requests" id="request-accordion">
+
+
+                    </div> 
+
+
+
+
+
+
+
+                </div>
+
+
+
+            </div>
+
+            <div id="footer">
+
+                <div id ="standard-footer">
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+        <!-- modal start -->
+        <div id="custom_request" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-md">
+                <!-- Modal content-->
+                <div class="modal-content">
+
+                    <div class="modal-body">
+                        <div class="container" style="width:100%;">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h3>Add an Custom Art Request</h3>
+                            <hr style="width: 100%; color: black; height: 1px; background-color:black;" />
+                            <form role="form" class="form-horizontal" action="/~s16g10/pikture_data_engine/ArtRequest.php" method="post" enctype="multipart/form-data">
+                                <input type="hidden" name="action" value="add_art_request"/>
+                                <div class="form-group">
+                                    <label for="title" class="control-label col-sm-2">Title:</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" id="title" name="title" class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="desc" class="control-label col-sm-2">Description</label>
+                                    <div class="col-sm-10">
+                                        <textarea class="form-control" rows ="6" id="desc" name="description" placeholder="Input something..."></textarea>
+                                    </div>
+                                </div>
+                                <div class ="form-group">
+                                    <label for="price_offer" class="control-label col-sm-2">Price offer</label>
+                                    <div class="col-sm-5">
+                                        <input type="text" id="price_offer" name="price_offer" class="form-control" >
+                                    </div>
+                                </div>
+
+                                <hr style="width: 100%; color: black; height: 1px; background-color:black;" />
+                                <div class="form-group" style="text-align:right;">
+                                    <button type ="submit" class="btn btn-primary btn-md" data-toggle="modal">Add Request</button>
+                                    <button type="submit" class="btn btn-default btn-danger btn-md" data-dismiss="modal">Cancel</button>
+                                </div>
+                            </form>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </div> <!--end of modal -->
+        <!-- send confirmation modal -->
+        <div id="confirm" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title"></h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <h2>Thank you.</h2>
+                            <h3>Your message has been sent</h3>
+                        </div>    
+                    </div>
+                    <div class="modal-footer">
+                        <a href="index.html"><button type="button" class="btn btn-primary" style="margin-top:10px">Ok</button></a>
+                    </div>    
+                </div>
+            </div>
+        </div> <!--end of modal -->
+
+        <!-- start of modal -->
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-md">
+                <!-- Modal content-->
+                <div class="modal-content">
+
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <div class="container" style="width:100%;">
+                            <form role="form" class="form-horizontal">
+                                <h3>Send a message to the customer</h3>
+
+                                <hr style="width: 100%; color: black; height: 1px; background-color:black;" />
+                                <div class="form-group">
+                                    <label for="title" class="control-label col-sm-2">To:</label>
+                                    <div class="col-sm-5">
+                                        <p>Customer contact info</p>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="desc" class="control-label col-sm-2">Message</label>
+                                    <div class="col-sm-10">
+                                        <textarea class="form-control" rows ="10" id="desc" placeholder="Type message here..."></textarea>
+                                    </div>
+                                </div>
+
+
+                                <hr style="width: 100%; color: black; height: 1px; background-color:black;" />
+                                <div class="form-group" style="text-align:right;">
+                                    <button type ="button" class="btn btn-info btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#confirm">Send</button>
+                                    <button type="button" class="btn btn-danger btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                            </form>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </div> <!--end of modal -->
+        <!-- send confirmation modal -->
+        <div id="confirm" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-md">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title"></h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <h2>Thank you.</h2>
+                            <h3>Message has been sent!</h3>
+                        </div>    
+                    </div>
+                    <div class="modal-footer">
+                        <a href="index.html"><button type="submit" class="btn btn-primary" style="margin-top:10px">Ok</button></a>
+                    </div>    
+                </div>
+            </div>
+        </div> <!--end of modal -->
+    </body>
+</html>
