@@ -2,54 +2,83 @@ Initialize engine version: 4.6.2f1 (bd99309c2ad7)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
-    Renderer: AMD Radeon(TM) R5 Graphics (ID=0x9851)
-    Vendor:   ATI
-    VRAM:     1007 MB
+    Renderer: NVIDIA GeForce GTX 750 (ID=0x1381)
+    Vendor:   NVIDIA
+    VRAM:     1994 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\Thomas\Desktop\Storage\Puv_Alpha_V2\PlatformAlpha_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\Thomas\Desktop\Storage\Puv_Alpha_V2\PlatformAlpha_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\Thomas\Desktop\Storage\Puv_Alpha_V2\PlatformAlpha_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\Thomas\Desktop\Storage\Puv_Alpha_V2\PlatformAlpha_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\Thomas\Desktop\Storage\Puv_Alpha_V2\PlatformAlpha_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\Thomas\Desktop\Storage\Puv_Alpha_V2\PlatformAlpha_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.103 seconds
-desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+Platform assembly: C:\Users\Thomas X Mei\Desktop\Storage\Puv_Alpha_V2\PlatformAlpha_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Thomas X Mei\Desktop\Storage\Puv_Alpha_V2\PlatformAlpha_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Thomas X Mei\Desktop\Storage\Puv_Alpha_V2\PlatformAlpha_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Thomas X Mei\Desktop\Storage\Puv_Alpha_V2\PlatformAlpha_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Thomas X Mei\Desktop\Storage\Puv_Alpha_V2\PlatformAlpha_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Thomas X Mei\Desktop\Storage\Puv_Alpha_V2\PlatformAlpha_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.353 seconds
+desktop: 1280x960 75Hz; virtual: 1280x960 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
-Platform assembly: C:\Users\Thomas\Desktop\Storage\Puv_Alpha_V2\PlatformAlpha_Data\Managed\System.Core.dll (this message is harmless)
-Player Respawn
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+Platform assembly: C:\Users\Thomas X Mei\Desktop\Storage\Puv_Alpha_V2\PlatformAlpha_Data\Managed\System.Core.dll (this message is harmless)
+UnloadTime: 2.878059 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 367.
+Total: 2.342721 ms (FindLiveObjects: 0.051672 ms CreateObjectMapping: 0.044073 ms MarkObjects: 0.310412 ms  DeleteObjects: 0.016717 ms)
 
 Player Respawn
  
 (Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
 
-Player Respawn
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+UnloadTime: 1.498870 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
-Player Respawn
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 215.
+Total: 2.579424 ms (FindLiveObjects: 0.030015 ms CreateObjectMapping: 0.042553 ms MarkObjects: 0.208967 ms  DeleteObjects: 0.032674 ms)
 
-Player Respawn
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+UnloadTime: 0.676296 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
-Player Respawn
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 1140.
+Total: 1.664525 ms (FindLiveObjects: 0.109043 ms CreateObjectMapping: 0.033054 ms MarkObjects: 0.256460 ms  DeleteObjects: 0.008738 ms)
 
-Player Respawn
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+UnloadTime: 3.949115 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
-Player Respawn
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1692.
+Total: 2.645154 ms (FindLiveObjects: 0.202888 ms CreateObjectMapping: 0.063450 ms MarkObjects: 0.425154 ms  DeleteObjects: 0.030775 ms)
 
-Player Respawn
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+UnloadTime: 5.811969 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 173.
+Total: 2.136032 ms (FindLiveObjects: 0.025076 ms CreateObjectMapping: 0.058511 ms MarkObjects: 0.204028 ms  DeleteObjects: 0.015577 ms)
+
+UnloadTime: 0.900082 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 176.
+Total: 2.102977 ms (FindLiveObjects: 0.027355 ms CreateObjectMapping: 0.056231 ms MarkObjects: 0.204788 ms  DeleteObjects: 0.009498 ms)
+
+UnloadTime: 0.898182 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 173.
+Total: 2.104117 ms (FindLiveObjects: 0.025076 ms CreateObjectMapping: 0.058131 ms MarkObjects: 0.200989 ms  DeleteObjects: 0.009118 ms)
+
+UnloadTime: 1.150463 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 223.
+Total: 2.158449 ms (FindLiveObjects: 0.030775 ms CreateObjectMapping: 0.058131 ms MarkObjects: 0.208967 ms  DeleteObjects: 0.009498 ms)
+
+UnloadTime: 1.057378 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 173.
+Total: 2.124254 ms (FindLiveObjects: 0.025836 ms CreateObjectMapping: 0.057751 ms MarkObjects: 0.205548 ms  DeleteObjects: 0.015957 ms)
+
+Platform assembly: C:\Users\Thomas X Mei\Desktop\Storage\Puv_Alpha_V2\PlatformAlpha_Data\Managed\System.dll (this message is harmless)
+UnloadTime: 0.346506 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 130.
+Total: 1.824100 ms (FindLiveObjects: 0.018237 ms CreateObjectMapping: 0.019756 ms MarkObjects: 0.113602 ms  DeleteObjects: 0.860948 ms)
 
